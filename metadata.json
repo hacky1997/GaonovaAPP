@@ -1,0 +1,6 @@
+{
+  "name": "Gaonova",
+  "description": "Discover authentic Indian regional crafts, heritage products, and stories with AI research and geographic exploration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

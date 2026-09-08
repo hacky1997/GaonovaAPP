@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer radiating craft arcs within 66dp center (radius ~28 around 54,54) -->
+    <path
+        android:pathData="M38,36 C42,32 48,30 54,30 C60,30 66,32 70,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FDE047"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+        
+    <!-- Golden Flame / Wisdom Leaf -->
+    <path
+        android:pathData="M54,28 C57,36 62,42 54,50 C46,42 51,36 54,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="50"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FEF08A" />
+                <item android:offset="0.5" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#EA580C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Artisanal Terracotta Diya / Lotus Base -->
+    <path
+        android:pathData="M32,54 C32,68 42,76 54,76 C66,76 76,68 76,54 C70,58 62,60 54,60 C46,60 38,58 32,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="54"
+                android:endX="76"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDBA74" />
+                <item android:offset="0.5" android:color="#FB923C" />
+                <item android:offset="1.0" android:color="#EA580C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative Handcraft Lotus Petals -->
+    <path
+        android:pathData="M54,60 C50,66 42,68 36,64 C42,72 50,74 54,74 C58,74 66,72 72,64 C66,68 58,66 54,60 Z"
+        android:fillColor="#C2410C" />
+
+    <!-- Heritage Stand / Pedestal -->
+    <path
+        android:pathData="M48,76 L60,76 L63,80 L45,80 Z"
+        android:fillColor="#FEF3C7" />
+</vector>
